@@ -1,0 +1,19 @@
+.body {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.cut-down {
+    visibility: hidden;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header__nav {
+    display: none;
+
+}
