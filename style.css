@@ -1,0 +1,270 @@
+:root {
+    --black-bkg: #222222;
+}
+
+.header {
+    background-color: var(--black-bkg);
+}
+
+.body {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.cut-down {
+    visibility: hidden;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header__nav {
+    display: none;
+
+}
+
+
+.header__wrp {
+    display: flex;
+    justify-content: space-between;
+    min-height: 75px;
+    align-items: center;
+}
+
+.header_logo {
+    margin: 0 41px 0 0;
+}
+
+.header_list {
+    display: flex;
+}
+
+.header_buttom {
+    margin: 0 41px 0 0;
+    background: transparent;
+}
+
+.header__link {
+    margin: 0 41px 0 0;
+}
+
+.brand {
+    display: flex;
+    margin: 0 0 62px 0;
+}
+
+.brand_title_wrp {
+    flex-grow: 1;
+    padding: 0 0 0 92px;
+    display: flex;
+    align-items: center;
+    background-color:
+}
+
+
+.brand_title {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58px;
+    text-transform: uppercase;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.sales_list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.catalog_item {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.catalog_text {
+    padding: 0 0 48px 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--grey);
+    text-align: center;
+}
+
+.catalog_list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sales__item {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 32px;
+    box-sizing: border-box;
+    width: 360px;
+    min-height: 260px;
+    background-color: var(--sales-bkg-color);
+    text-transform: uppercase;
+}
+
+.sales__item--woman {
+    background-image: url(images/forwomen.jpg);
+}
+
+.sales__item--man {
+    background-image: url(images/formen.jpg);
+}
+
+.sales__item--kids {
+    background-image: url(images/forkids.jpg);
+}
+
+.sales__item--accesories {
+    background-image: url(images/accesories.jpg);
+    width: 100%;
+    min-height: 180px;
+    margin: 0 0 97px;
+}
+
+.sales__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+}
+
+.sales__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: pink;
+}
+
+.catalog {
+    padding-bottom: 95px
+}
+
+.sales__item {
+    display: flex;
+}
+
+.catalog__button {
+    width: 212px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.04em;
+    color: red;
+    padding: 15px 0;
+}
+
+.style_buttom {
+    margin-left: 460px;
+    display: flex;
+}
+
+.aside__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 341px;
+    background-color: var(--black-bkg);
+}
+
+.aside__title {
+    font-weight: 400;
+    font-size: 19.96px;
+    line-height: 24px;
+    color: white;
+    text-align: center;
+    padding: 19px 0 16px 0;
+}
+
+.aside__text {
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    text-align: center;
+    color: white;
+}
+
+.aside__icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer__main {
+    min-height: 448px;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-image: url(images/subscribe.jpg);
+
+}
+
+
+.backcolor {
+    background-color: var(--black-bkg);
+}
+
+.footer__icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subscribe {
+    width: 360px;
+    height: 225px;
+}
+
+.down__text {
+    padding: 30px 0 0 0;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.subscribe__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 167.2%;
+    text-align: center;
+    color: var(---black-bkg);
+    text-transform: uppercase;
+}
+
+.subscribe__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167.2%;
+    text-align: center;
+    color: var(--black-bkg);
+    text-transform: uppercase;
+}
