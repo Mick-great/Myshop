@@ -52,8 +52,6 @@
     list-style: none;
 }
 
-.header__nav-item {}
-
 .header__nav-item:hover {
     color: red;
     cursor: pointer;
