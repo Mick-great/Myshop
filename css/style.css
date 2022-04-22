@@ -12,11 +12,12 @@
 }
 
 .header {
-    background-color: var(--black-bkg);
+    background-color: var(--pinki);
     display: flex;
     justify-content: flex-end;
     position: relative;
     min-height: 40px;
+
 }
 
 .body {
@@ -507,36 +508,26 @@ a.button:active {
 }
 
 @media (min-width: 376px) and (max-width: 768px) {
-
-    .header__wrp {
-        display: flex;
-        justify-content: space-between;
-        height: 120px;
-        align-items: center;
-        background-color: var(---black-bkg)
-    }
-
-    .brand_title {
-        font-size: 24px;
-        font-weight: 500;
-        line-height: 28px;
-    }
-
-    .sales__title {
-        font-weight: 300;
-        font-size: 14px;
-        line-height: 14px;
-        color: blueviolet;
-    }
-
-    .footer__main {
-        width: 1140px;
-    }
-
-
-    .brand_title_wrp {
-        width: 210px;
-    }
-
-    .brand {}
+.header {
+    min-height: 376px;
+    background-color: #F16D7F;
+}
+.header__wrp {
+    display: flex;
+    justify-content: space-between;
+    min-height: 75px;
+    align-items: center;
+    background-color: aqua;
+}
+.brand_title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.sales__title {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    color: blueviolet;
+}
 }

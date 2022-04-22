@@ -1,2 +1,10 @@
-@import '/blocks/reset';
-@import '/'
+@import './reset';
+@import './general';
+@import './variables';
+
+@import './blocks/brand';
+@import './blocks/catalog';
+@import './blocks/header';
+@import './blocks/information';
+@import './blocks/nav-sub-item';
+@import './blocks/sales';
