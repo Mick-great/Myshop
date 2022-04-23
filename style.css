@@ -30,7 +30,7 @@
 }
 
 .container {
-    width: 1140px;
+    width: 1240px;
     margin: 0 auto;
 }
 
@@ -124,7 +124,7 @@
 
 .brand_title_wrp {
     flex-grow: 1;
-    padding: 0 0 0 92px;
+    padding: 0 0 0 182px;
     display: flex;
     align-items: center;
     background-color: var(--light-p);
@@ -506,15 +506,37 @@ a.button:active {
     background-image: url(images/bg.jpg);
 }
 
+@media (max-width: 1024px) {
+    .header__wrp {
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        width: 1600px;
+        height: 75px;
+    }
+
+    .header_logo {
+        width: 44px;
+        height: 38px;
+        left: 14.44%;
+        right: 82.81%;
+        top: 0.47%;
+        bottom: 98.54%;
+    }
+}
+
+
+
 @media (min-width: 376px) and (max-width: 768px) {
 
     .header__wrp {
-        display: flex;
-        justify-content: space-between;
-        height: 120px;
-        align-items: center;
-        background-color: var(---black-bkg)
+        height: 74px;
+        left: 0%;
+        right: 0%;
+        top: 0%;
     }
+
+    .header_logo {}
 
     .brand_title {
         font-size: 24px;
@@ -526,7 +548,7 @@ a.button:active {
         font-weight: 300;
         font-size: 14px;
         line-height: 14px;
-        color: blueviolet;
+        color: var(--dark-pink);
     }
 
     .footer__main {
@@ -535,8 +557,40 @@ a.button:active {
 
 
     .brand_title_wrp {
-        width: 210px;
+        padding: 0 0 0 362px;
+        display: flex;
+        align-items: center;
     }
 
-    .brand {}
+    .brand {
+        padding: 0 0 0 92px;
+        display: flex;
+
+    }
+
+    .brand_man {
+        width: 550px;
+    }
+
+    .brand_title:before {
+        content: '';
+        width: 12px;
+        height: 108px;
+        position: absolute;
+        margin-left: -120px;
+    }
+
+    .brand__subtitle-pink {}
+
+    .brand_title {
+        left: 58.98%;
+        right: 4.17%;
+        top: 4.97%;
+        bottom: 93.2%;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 53px;
+    }
 }
