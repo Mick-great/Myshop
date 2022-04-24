@@ -11,6 +11,80 @@
 
 }
 
+.contents__card {
+    display: flex;
+    justify-content: space-around;
+    padding: 34px;
+}
+
+.card1 {
+    width: 459px;
+    padding: 44px 32px;
+    box-shadow: 5px 20px 50px rgb(16 112 177 / 20%);
+    border-radius: 10px;
+    background-color: #FFFFFF
+}
+
+.card2 {
+    width: 459px;
+    padding: 44px 32px;
+    box-shadow: 5px 20px 50px rgb(16 112 177 / 20%);
+    border-radius: 10px;
+    background-color: #FFFFFF
+}
+
+.cart__title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    justify-content: right;
+}
+
+.sales {
+    display: flex;
+}
+
+.cart__title-sub {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    justify-content: right;
+}
+
+.card__text {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    display: flex;
+    justify-content: right;
+}
+
+.card__info {
+    display: flex;
+    justify-content: right;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.card__size {
+    display: flex;
+    justify-content: right;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.card__quantity {
+    display: flex;
+    justify-content: right;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+}
+
 .header {
     background-color: var(--black-bkg);
     display: flex;
@@ -26,6 +100,7 @@
     right: 0%;
     top: 4.29%;
     bottom: 87.24%;
+    background-color: var(--light-p)
 }
 
 .header__title-card {
@@ -460,7 +535,6 @@ a.button:active {
 }
 
 .down__text {
-    padding: 30px 0 0 0;
     font-style: italic;
     font-weight: 400;
     font-size: 20px;
@@ -500,6 +574,7 @@ a.button:active {
     align-items: center;
     text-decoration: none;
     color: var(--black);
+    margin-left: -45px;
 }
 
 .submit__button {
@@ -526,6 +601,9 @@ a.button:active {
 .bg {
     background-image: url(images/bg.jpg);
 }
+
+
+
 
 @media (max-width: 1024px) {
     .header__wrp {
