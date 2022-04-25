@@ -13,11 +13,12 @@
 
 .contents__card {
     display: flex;
-    justify-content: space-around;
+    flex-flow: column;
     padding: 34px;
 }
 
 .card1 {
+    float: left;
     width: 459px;
     padding: 44px 32px;
     box-shadow: 5px 20px 50px rgb(16 112 177 / 20%);
@@ -26,6 +27,7 @@
 }
 
 .card2 {
+    margin-top: 40px;
     width: 459px;
     padding: 44px 32px;
     box-shadow: 5px 20px 50px rgb(16 112 177 / 20%);
@@ -33,7 +35,20 @@
     background-color: #FFFFFF
 }
 
+.message__title {
+    margin-top: 40px;
+    width: 459px;
+    padding: 44px 32px;
+    border-radius: 10px;
+    background-color: #FFFFFF
+}
+
 .cart__title {
+    margin-top: -245px;
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 58px;
+    text-transform: uppercase;
     font-weight: 400;
     font-size: 24px;
     line-height: 29px;
@@ -46,6 +61,10 @@
 }
 
 .cart__title-sub {
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 58px;
+    text-transform: uppercase;
     font-weight: 400;
     font-size: 24px;
     line-height: 29px;
@@ -53,7 +72,12 @@
     justify-content: right;
 }
 
+.card__text-sub {
+    color: var(--dark-pink);
+}
+
 .card__text {
+    padding-bottom: 30px;
     font-weight: 400;
     font-size: 22px;
     line-height: 26px;
@@ -94,6 +118,7 @@
 }
 
 .header__card {
+    display: flex;
     width: 1600px;
     height: 148px;
     left: 0%;
@@ -104,6 +129,11 @@
 }
 
 .header__title-card {
+    margin-left: 230px;
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 58px;
+    text-transform: uppercase;
     width: 194px;
     height: 29px;
     top: 134px;
