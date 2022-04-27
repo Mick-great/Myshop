@@ -12,6 +12,7 @@
 
 }
 
+
 .contents__card {
     display: flex;
     flex-flow: column;
@@ -840,6 +841,38 @@ a.button:active {
     justify-content: center;
 }
 
+.product__main {
+
+    margin-top: 40px;
+    margin-left: -95px;
+    width: 1141px;
+    height: 301px;
+    padding: 44px 32px;
+    box-shadow: 5px 20px 50px rgb(16 112 177 / 20%);
+    border-radius: 10px;
+    background-color: #d3d1d1;
+}
+
+.product__text {
+    position: relative;
+    bottom: -18px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4D4D4D;
+    text-align: center;
+}
+
+.product__text-sub {
+    top: 56px;
+    position: relative;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #5E5E5E;
+}
+
 .prev {
     left: 2px;
     cursor: pointer;
@@ -876,7 +909,10 @@ a.button:active {
 
 .myslides {
     display: block;
+    display: flex;
+    justify-content: center;
 }
+
 
 .fade {
     -webkit-animation-name: fade;
@@ -899,4 +935,21 @@ a.button:active {
 .next:hover {
     color: white;
     background-color: rgba(0, 0, 0, 0.8);
+}
+
+.product__title {
+    font-size: 24px;
+    line-height: 29px;
+    color: var(--pinki);
+    text-align: center;
+}
+
+.product__title:after {
+    content: '';
+    width: 110px;
+    height: 4px;
+    position: absolute;
+    background-color: var(--dark-pink);
+    margin-left: -150px;
+    bottom: 288px;
 }
