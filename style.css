@@ -580,7 +580,7 @@ a.button:active {
 }
 
 .style_buttom {
-    margin-left: 460px;
+    margin-left: 580px;
     display: flex;
     border: none;
 }
@@ -735,12 +735,16 @@ a.button:active {
 
 
 @media (max-width: 1024px) {
-    .header__wrp {
+    .header_wrp {
         left: 0%;
         right: 0%;
         top: 0%;
         width: 1600px;
         height: 75px;
+        display: flex;
+        justify-content: space-between;
+        min-height: 75px;
+        align-items: center;
     }
 
     .header_logo {
@@ -1033,4 +1037,8 @@ a.button:active {
     position: absolute;
     top: 495px;
     left: 270px;
+}
+
+.catalog__title-card-sub {
+    color: var(--dark-pink);
 }
