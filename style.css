@@ -1042,3 +1042,48 @@ a.button:active {
 .catalog__title-card-sub {
     color: var(--dark-pink);
 }
+
+.catalog__filter {}
+
+.catalog__filter-sub {
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+
+
+}
+
+.catalog__title {
+    margin-top: 10px;
+    margin-left: -820px;
+    margin-bottom: 150px;
+}
+
+.catalog__text {
+    margin-left: 64px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17px;
+    color: #6F6E6E;
+
+}
+
+.catalog__text-sub {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-left: 85px;
+}
+
+.catalog__img {
+    margin-bottom: 135px;
+    margin-left: 10px;
+}
+
+.catalog__price-sub {
+    padding: 18px 0 20px 18px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--dark-pink);
+}
