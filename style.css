@@ -516,6 +516,10 @@
     background: rgba(0, 0, 0, 0.4);
 }
 
+.button__icon {
+    margin-left: 3px;
+}
+
 a.button:hover {
     transition: .5s linear;
     background-position: -200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
@@ -681,7 +685,7 @@ a.button:active {
 }
 
 .icon {
-    margin-left: 6px;
+    margin: 0 0 0 8px;
     background-color: rgb(255, 255, 255);
     top: 98.56%;
     bottom: 0.6%;
