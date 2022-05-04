@@ -805,9 +805,13 @@ a.button:active {
     .header_logo {}
 
     .brand_title {
-        font-size: 24px;
-        font-weight: 500;
-        line-height: 28px;
+        position: relative;
+        z-index: 1;
+        font-size: 48px;
+        line-height: 58px;
+        font-weight: 900;
+        font-style: normal;
+        text-transform: uppercase;
     }
 
     .sales__title {
@@ -846,7 +850,9 @@ a.button:active {
         margin-left: -120px;
     }
 
-    .brand__subtitle-pink {}
+    .brand__subtitle-pink {
+        display: block;
+    }
 
     .brand_title {
         left: 58.98%;
