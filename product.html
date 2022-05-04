@@ -32,12 +32,12 @@
                         </button>
                     </li>
                     <li class="header__item">
-                        <a href="#" class="header__link">
+                        <a href="card.html" class="header__link">
                             <img src="images/person.svg" alt="person">
                         </a>
                     </li>
                     <li class="header__item">
-                        <a href="product.html" class="header__link">
+                        <a href="#" class="header__link">
                             <img src="images/corzina.svg" alt="corzina">
                         </a>
                     </li>
@@ -109,45 +109,85 @@
     </header>
     <main>
         <section class="header__card">
-            <h1 class="header__title-card"> Shopping cart</h1>
+            <h1 class="header__title-card"> new arrivals </h1>
+            <h2 class="header__title-card-sub">HOME / MEN / NEW ARRIVALS </h2>
+        </section>
+        <section class="product__card" alt="product">
+            <div class="slideshow-container">
+                <div class="myslides fade">
+                    <div class="numbertext">1 / 2</div>
+                    <img src="images/product.jpg">
+                </div>
+                <div class="myslides fade">
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+        </section>
+        <div class="product__main">
+            <h2 class="product__title"> Women collection </h2>
+            <h3 class="product__text"> Moschino cheap and chic </h3>
+            <p class="product__text-sub">Compellingly actualize fully researched processes before proactive
+                outsourcing. Progressively syndicate collaborative architectures before cutting-edge services.
+                Completely visualize parallel core competencies rather than exceptional portals. </p>
+            <p class="product__price-block">$561</p>
+            <div class="product__info">
+                <p class="product__color">choose color</p>
+                <p class="product__size">choose size</p>
+                <p class="product__quantity">quantity</p>
+
+                <a href="#" class="product__button">Add to Cart</a>
+                <img class="images" src="images/corzinaproduct.png" alt="corzinaproduct">
+            </div>
+        </div>
+        <section class="catalog">
+            <div class="container">
+                <ul class="product_list">
+                    <li class="sales__item">
+                        <div class="cart">
+                            <div class="cart-wrapper">
+                                <div class="img">
+                                    <img src="images/card4.jpg">
+                                </div>
+                                <h3 class="catalog__item-title">Ellery x m'o capsule</h3>
+                                <p class="catalog__item-text">Known for her sculptural takes on traditional
+                                    tailoring, australian arbiter of cool kym ellery teams up with moda operandi.
+                                </p>
+                                <p class="product__price">$52.00</p>
+                    </li>
+                    <li class="sales__item">
+                        <div class="cart">
+                            <div class="cart-wrapper-overlay">
+                                <div class="img">
+                                    <img src="images/card3.jpg">
+                                </div>
+                            </div>
+                            <h3 class="catalog__item-title">Ellery x m'o capsule</h3>
+                            <p class="catalog__item-text">Known for her sculptural takes on traditional
+                                tailoring, australian arbiter of cool kym ellery teams up with moda operandi.
+                            </p>
+                            <p class="product__price">$52.00</p>
+                    </li>
+                    <li class="sales__item">
+                        <div class="cart">
+                            <div class="cart-wrapper-overlay">
+                                <div class="img">
+                                    <img src="images/card6.jpg">
+                                </div>
+                            </div>
+                            <h3 class="catalog__item-title">Ellery x m'o capsule</h3>
+                            <p class="catalog__item-text">Known for her sculptural takes on traditional tailoring,
+                                Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                            <p class="product__price"> $52.00 </p>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
-    <section class="contents__card">
-        <div class="card1">
-            <img src="images/sales.jpg" alt="card1">
-            <img class="card__closed" src="images/closedcard.png" alt="closedcard">
-            <h2 class="cart__title">Mango people</h2>
-            <p class="cart__title-sub"> t-shirt</p>
-            <p class="card__text">Price: <span class="card__text-sub"> $300 </span></p>
-
-            <p class="card__info"> Color: Red</p>
-            <p class="card__size">Size: Xl</p>
-            <p class="card__quantity"> Quantity: 2</p>
-        </div>
-        <div class="card2">
-            <img src="images/sales2.jpg" alt="card2">
-            <img class="card__closed" src="images/closedcard.png" alt="closedcard">
-            <h2 class="cart__title">Mango people</h2>
-            <p class="cart__title-sub">t-shirt</p>
-            <p class="card__text">Price: <span class="card__text-sub"> $300 </span></p>
-            <p class="card__info"> Color: Red</p>
-            <p class="card__size">Size: Xl</p>
-            <p class="card__quantity"> Quantity: 2</p>
-        </div>
-        <div class="message__title">
-            <h2 class="message__text">Shipping adress</h2>
-            <input class="message__info" type="text" size="40">
-            <input class="message__info" type="text" size="40">
-            <input class="message__info" type="text" size="40">
-            <button class="card__bottom"> Get a Quote </a>
-        </div>
-        <div class="total__info">
-            <h2 class="total__product"> Sub total $900</h2>
-            <p class="total__title"> Grand total $900</p>
-            <button class="style_buttom">
-                <a href="#" class="message__button">Proceed to checkout</a>
-            </button>
-    </section>
     <footer class="footer">
         <div class="footer__main">
             <div class="container">
